@@ -1,0 +1,13 @@
+"use client";
+import React,{ useState } from "react";
+export default function Person(){
+    const [name,setName]=useState("Ma Su Myat Noe Oo");
+    const[date,setDate]=useState(new Date());
+    return(
+        <div>
+        <h1>Functional Component</h1>
+        <div>{name}</div>
+        <div>{date.toString()}</div>
+        </div>
+    );
+}
