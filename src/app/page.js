@@ -1,10 +1,10 @@
 
-import Example10 from "../components/Example10";
+import Example22 from "../components/Example22";
 export default function Home(){
   return(
     <div>
       
-      <Example10/>
+      <Example22 />
     </div>
   );
 }
