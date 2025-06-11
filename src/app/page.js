@@ -1,10 +1,11 @@
 
-import Example22 from "../components/Example22";
+import ShoppingApp from "../components/Shopping.js";
+
 export default function Home(){
   return(
     <div>
       
-      <Example22 />
+      < ShoppingApp />
     </div>
   );
 }
